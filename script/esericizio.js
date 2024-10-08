@@ -33,13 +33,13 @@ console.log('verifica che il numero n1 sia divisibile per 5' , n1  %5===0) */
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-let n1=8
+/*let n1=8
 let n2=16
 
 if (
    n1 === 8 || n2 === 8 || n1 - n2 === 8 || n2 - n1 === 8 || n1 + n2 === 8 )
 {console.log(n1===8,n2 ===8, n1 - n2 === 8,n2 - n1 === 8, n1 + n2 === 8 )
-}
+}*/
 
 
 
@@ -49,7 +49,7 @@ if (
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-let totalShoppingCart = (60/100)*20
+/*let totalShoppingCart = 60
 
 
 if(totalShoppingCart>= 50)
@@ -58,14 +58,23 @@ if(totalShoppingCart>= 50)
 } else {
     totalShoppingCart= totalShoppingCart  +10
 }
-console.log('totalShoppingCart' ,totalShoppingCart)
+console.log('totalShoppingCart' ,totalShoppingCart)*/
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
+/*let totalShoppingCart = (60/100)*20
 
+
+if(totalShoppingCart>= 50)
+{
+    totalShoppingCart= totalShoppingCart
+} else {
+    totalShoppingCart= totalShoppingCart  +10
+}
+console.log('totalShoppingCart' ,totalShoppingCart)*/
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -73,11 +82,25 @@ console.log('totalShoppingCart' ,totalShoppingCart)
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let n1=23
+let n2=8
+let n3=17
+if(23>8>17){
+  console.log('dal maggiore', 23>8>17)
+} */
+ 
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
+
+/*let n1 = (1,2)
+if(typeof 1==='numero' && typeof 2 === 'numero') {
+  return 1 + 2;
+}
+else{
+throw new Error('numeri richiesti');}
+console.log(1,2)*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -85,20 +108,29 @@ console.log('totalShoppingCart' ,totalShoppingCart)
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let n1=7
+
+if(n1 %2 === 0){
+  n1 %2 === 0 
+}else{
+ n1 %2 !== 0
+}
+console.log('pari o dispari',n1 %2 === 0 )*/
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+ let a= 5
+ let b= 10
+ let val = a && b
+  if (val < 10 ) {
+      console.log("Meno di 10", val<10);
     } else if (val < 5) {
-      console.log("Meno di 5");
+      console.log("Meno di 5", val<5);
     } else {
-      console.log("Uguale a 10 o maggiore");
+      console.log("Uguale a 10 o maggiore", val>=10);
     }
-*/
 
+console.log('risultato', val )
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 11
